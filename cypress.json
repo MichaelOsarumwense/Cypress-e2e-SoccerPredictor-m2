@@ -1,0 +1,5 @@
+{
+    "env": {
+        "host": "http://soccerpredictorcalculator-m2.herokuapp.com/"
+    }
+} 

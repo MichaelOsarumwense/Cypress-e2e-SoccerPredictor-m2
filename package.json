@@ -1,0 +1,10 @@
+{
+    "name": "soccerpredictor",
+    "version": "1.0.0",
+    "description": "Predicting Soccer Matches",
+    "author": "Michael Osarumwense",
+    "scripts": {
+        "open": "npx cypress open",
+        "run": "npx cypress run"
+    }
+}
