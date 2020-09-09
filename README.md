@@ -1,7 +1,25 @@
 # Cypress-e2e-SoccerPredictor-m2
 
-## Installation =>Open project with visual studio code and in terminal type => npm install
+### Installation
 
-### To run test => npx cypress open or click on "open" under npm scripts, when they cypress run is open click on run all spec.
+<ul>
+<li>Clone Repo</li>
+<li>Open project with visual studio code or equivalent IDE</li>
+<li>In terminal type => <strong>npm install</strong></li>
+</ul>
 
-### To run test in headless mode => npx cypress run or click on "run" under npm scripts.
+### Run Test
+
+<ul>
+<li>npx cypress open / open (NPM SCRIPTS)=> Opens up cypress runner and runs test in a browser</li>
+<li>npx cypress run /run (NPM SCRIPTS)=> Runs the test in Headless mode</li>
+</ul>
+
+### Test Script Directory
+
+#### Path to Test is cypress/intergration/
+
+<ul>
+<li>cypress\integration\mobile_view_Test.js</li>
+<li>cypress\integration\web_View_Test.js</li>
+</ul>
