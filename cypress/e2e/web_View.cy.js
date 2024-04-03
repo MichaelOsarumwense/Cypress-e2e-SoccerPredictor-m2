@@ -86,14 +86,14 @@ describe(`Web View Test`, () => {
       cy.get('#shareButton').click();
       cy.get('#name').type('Michael');
       cy.get('[type="submit"]').click();
-      cy.get('.toast-message').should('not.be.visible');
+      cy.get('.toast-message').should('not.exist');
     });
 
     it('Verify user is unable to proceed to share app without entering email', () => {
       cy.get('#shareButton').click();
       cy.get('#email').type('sanmicad@gmail.com');
       cy.get('[type="submit"]').click();
-      cy.get('.toast-message').should('not.be.visible');
+      cy.get('.toast-message').should('not.exist');
     });
 
     it('Verify user gets a succes message upon successfully sharing app', () => {
