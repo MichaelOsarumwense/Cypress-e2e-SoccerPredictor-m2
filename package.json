@@ -8,6 +8,6 @@
 		"run": "npx cypress run"
 	},
 	"devDependencies": {
-		"cypress": "^5.1.0"
+		"cypress": "^13.7.2"
 	}
 }
